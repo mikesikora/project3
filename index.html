@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 3</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="jquery-2.1.0.min.js"></script>
+	<script src="animations.js"></script>
+</head>
+<body>
+
+	<!-- Header Style -->
+
+	<header>
+		<div class="container">
+			<div class="brand">
+				<h1>SportsStream</h1>
+			</div>
+			<ul class="nav-bar ">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- Featured Header Area (backdrop) -->
+
+	<div class="header-container">
+		<div class="header-overlay"></div>
+		<div class="header-featured-area">
+			<div class="header-blurb">
+				<img src="http://i.imgur.com/iWRx6G4.png">
+				<p>Get Connected.</p>
+				<button href="#main-info" class="id-link">Learn More</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Body Structure -->
+
+	<div class="body-container">
+
+		<div id="main-info" class="content"> <!-- Start of About Section -->
+			<div class="container"> <!-- Start of .container -->
+				<div class="row clear-fix">
+					<div class="column-4-3">
+						<div class="gray-back pad">
+							<h1 class="b1">Featured Stream</h1>
+							
+							<iframe src="http://www.youtube.com/embed/WNJ7nbhd_eU?rel=0" frameborder="0" allowfullscreen></iframe>
+							
+							<p>This will be a scrolling region to select a new video stream of a featured sport. I will also change this floating section design to something more streamline.</p>
+						</div>
+					</div>
+
+					<div class="column-4-1">
+						<div class="green-back pad">
+							<form>
+								<input type="text" name="username" id="user" class="sign-in-field" value="User Name"><br>
+								<input type="password" name="password" class="sign-in-field" value="password">
+								<button class="button-gray sign-in" onclick="signin()">Sign In</button>
+							</form>
+						</div>
+
+						<br><br>
+
+						<div class="green-back">
+							<ul class="listing">
+								<li><a>Highschool Lacrosse</a></li>
+								<li><a>Club Lacrosse</a></li>
+								<li><a>College Lacrosse</a></li>
+								<li><a>Pro Lacrosse</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div> <!-- End of Row -->
+
+			</div>
+		</div>
+
+		<div id="footer" class="content"> <!-- Start of Footer Section -->
+			<div class="container"> <!-- Start of .container -->
+				<div class="center-fix">
+					<p class="color-white">Design by Michael Sikora | v0.1</p>
+				</div>
+			</div>
+		</div>
+
+	</div> <!-- End of body container -->
+	<!--
+	<div class="main">
+
+		<div class="grid-3">
+			<div class="pad-5 background-main border-3">
+				<h1 class="b1">Featured Stream</h1>
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/WNJ7nbhd_eU?rel=0" frameborder="0" allowfullscreen></iframe>
+				<p>This area will have the option to open certain featured streams. Underneath the video will be a slider of several streams to select.</p>
+			</div>
+		</div>
+		
+		<div class="grid-3-right">
+			
+			<div class="pad-5 background-side border-3">
+				<form>
+					<input type="text" name="username" id="user" class="sign-in-field" value="User Name"><br>
+					<input type="password" name="password" class="sign-in-field" value="password">
+					<button class="button-gray sign-in" onclick="signin()">Sign In</button>
+				</form>
+			</div>
+			
+			<ul class="listing">
+				<li>Highschool Lacrosse</li>
+				<li>Club Lacrosse</li>
+				<li>College Lacrosse</li>
+				<li>International Lacrosse</li>
+			</ul>
+
+		</div>			
+		
+		<br class="clear-float" />
+		
+		<div class="grid-1">
+			<div class="pad-5 background-main border-3">
+				<h1 class="b1">Product Stream</h1>
+				<div class="grid-thirds hover-background-gray">
+					<div class="pad-1">
+						<img class="image-large" src="http://i.imgur.com/iWRx6G4.png">
+					</div>
+				</div>
+				<div class="grid-thirds hover-background-gray">
+					<div class="pad-1">
+						<img class="image-large" src="http://i.imgur.com/iWRx6G4.png">
+					</div>
+				</div>
+				<div class="grid-thirds hover-background-gray">
+					<div class="pad-1">
+						<img class="image-large" src="http://i.imgur.com/iWRx6G4.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<br class="clear-float" />
+
+		<div class="grid-1">
+			<div class="pad-5 background-main border-3">
+				<h1 class="b1">The Footer</h1>
+			</div>
+		</div>
+
+		<br class="clear-float" />
+
+		
+	</div>
+
+	</div>
+	-->
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 3 - About</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="jquery-2.1.0.min.js"></script>
+	<script src="animations.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="brand">
+				<h1>SportsStream</h1>
+			</div>
+			<ul class="nav-bar">
+				<li><a href="about.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+	
+
+	<br class="clear-float" />
+
+		<!-- <div class=""></div> -->
+	</div>
+	</div>
+	<div class="footer-contain">
+		<!-- <div class=""></div> -->
+	</div>
+</body>
+</html>

@@ -1,0 +1,403 @@
+
+/*Table of Contents*/
+
+/*	1		Body	*/
+/*	2		Texts 	*/
+/*	3		Header Area	*/
+/*	4		Containing Structure	*/
+
+
+/*----	1		Body Style */
+body, html{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	top: 0;
+	margin: 0 !important;
+	padding: 0;
+	background: rgba(255,255,255,1);
+}
+
+body{
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #333;
+}
+
+/*----	2		Text Style */
+
+/*Headers*/
+
+h1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 1.1em;
+}
+
+.header-container h1{
+	color: #fff;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+.b1{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+	line-height: 1.1em;
+}
+
+/*Paragraphs*/
+
+p{
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.428em;
+}
+
+.header-container p{
+	color:#fff;
+}
+
+/*Links*/
+
+a, a:visited{
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+a:hover{
+
+}
+
+/* Colors */
+.color-white{
+	color: #fff;
+}
+
+
+/*----	3 Header Area Style */
+
+
+.header-container{
+	width: 100%;
+	height: 100vh;
+	background: url(http://www.davidparrelli.com/sites/prestige/img/bg-featured1.gif);
+	overflow: hidden;
+}
+
+.header-container-sm{
+	width: 100%;
+	height: 300px;
+	background: url(http://www.davidparrelli.com/sites/prestige/img/bg-featured1.gif);
+	overflow: hidden;
+}
+
+.header-overlay{
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,.1);
+}
+
+.header-container-sm>.header-featured-area{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: -200px;
+	max-width: 60%;
+	max-height: 200px;
+	z-index: 10;
+	margin: auto;
+	text-align: center;	
+}
+
+.header-container>.header-featured-area{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	max-width: 60%;
+	max-height: 45%;
+	z-index: 10;
+	margin: auto;
+	text-align: center;	
+}
+
+.header-blurb img{
+	width: 300px;
+}
+
+/* Header Navigation */
+
+header{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: 200;
+	background:rgba(0,0,0,.1);
+}
+
+.header-shrink{
+	height: 70px;
+	background:rgba(0,0,0,.8);
+}
+
+.brand{
+	float: left;
+	display: block;
+}
+
+.brand>h1{
+	margin: 0 0 0 20px;
+	padding: 0;
+	font-size: 42px;
+	color: #fff;
+	line-height: 70px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+ul.nav-bar{
+	list-style: none;
+	display: block;
+	float: right !important;
+	padding-left: 0;
+	margin:0;
+}
+
+.nav-bar>li{
+	float:left;
+	position: relative;
+	display: block;
+	text-align: -webkit-match-parent;
+}
+
+.nav-bar>li>a{
+	color: #fff;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 1em;
+	margin: 0 0 0 20px;
+	text-transform: uppercase;
+	line-height: 70px;
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+
+.header-shrink ul>li>a{
+	padding: 0 15px;
+}
+ .header-shrink .brand>h1{
+ 	padding: 0;	
+ }
+/*----	4		Containing Structure Style	*/
+
+/* Overall Structure */
+.body-container{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.content{
+	padding: 5em 0;
+}
+
+.column-2{
+	width: 50%;
+	float: left;
+}
+.column-4-3{
+	width: 65%;
+	margin-right: 5%;
+	float: left;
+}
+
+.column-4-1{
+	width: 25%;	
+	margin-right: 5%;
+	float: left;
+}
+
+.pad{
+	padding: 25px;
+}
+
+.gray-back{
+	background: rgba(0,0,0,.2);
+	border-radius: 3px;
+	box-shadow: 0 3px 0 0 rgba(0,0,0,.7);
+}
+
+.green-back{
+	background: #89FF29;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 0 rgba(0,0,0,.7);
+}
+/* Individual Structure*/
+iframe{
+	width: 600px;
+	height: 340px;
+}
+
+#footer{
+	background: #3a3a3a;
+}
+
+.product-list{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.product-container{
+	cursor: pointer;
+	width: 20%;
+	margin: 2.5%;
+	float: left;
+	position: relative;
+}
+.product-container>img{
+	width: 100%;
+}
+.product-container:hover{
+	background: rgba(0,0,0,.5);
+}
+/* Form Structure */
+input{
+	padding: 1.1em 0;
+	width: 100%;
+	text-indent: 15px;
+}
+
+.button-gray{
+	margin-top: 10px;
+	color: #fff;
+	width: 100%;
+	background: rgba(120,120,120,1);
+	padding: .75em 0;
+	border: none;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,.9);
+}
+
+.button-gray:hover{
+	background: rgba(120,120,120,.9);
+}
+
+.button-gray:active{
+	position: relative;
+	top: 3px;
+}
+
+/* List Styles */
+ul.listing{
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.listing>li{
+	padding: 20px;
+	list-style: none;
+	cursor: pointer;
+}
+
+ul.listing>li:hover{
+
+}
+
+ul.listing>li:first-child{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+ul.listing>li:nth-child(odd){
+	background: #81ED28;
+}
+
+/*---- 	Fixes */
+
+.clear-fix:after{
+	clear: both;
+	display: table;
+	content: " ";
+}
+
+.header-fix{
+	position: absolute;
+	top: 0;
+	z-index: 99;
+}
+
+.center-fix{
+	width: 100%;
+	text-align: center;
+}
+
+/*---- Animations */
+header, .product-container, ul.listing>li, .nav-bar>li>a, .brand>h1, .button-gray{
+	-webkit-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+
+/*---- Media Queries */
+
+@media all and  (max-width: 749px){
+	.container{
+		width: 100%;
+	}
+	ul.nav-bar{
+		visibility: hidden;
+	}
+}
+
+@media all and  (min-width: 768px){
+	.container{
+		width: 750px;
+	}
+	.nav-bar>li>a{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+@media all and (min-width: 992px){
+	.container{
+		width: 970px;
+	}
+}
+
+@media all and (min-width: 1200px){
+	.container{
+		width: 1170px;
+	}
+}
